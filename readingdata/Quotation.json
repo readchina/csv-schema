@@ -16,7 +16,8 @@
     {
       "name": "source_id",
       "constraints": {
-        "required": true
+        "required": true,
+        "pattern": "(P|S)S[0-9]{5}"
       }
     },
     {

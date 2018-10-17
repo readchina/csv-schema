@@ -23,7 +23,7 @@
     {
       "name": "source_link",
       "constraints": {
-        "required": false,
+        "required": true,
         "type": "http://www.w3.org/2001/XMLSchema#anyURI"
       }
     },

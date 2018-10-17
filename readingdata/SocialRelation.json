@@ -24,7 +24,8 @@
     {
       "name": "relation",
       "constraints": {
-        "required": true
+        "required": true,
+        "pattern": "S(3|4).*"
       }
     },
     {
@@ -37,8 +38,7 @@
     {
       "name": "rel_en",
       "constraints": {
-        "required": true,
-        "min-length": 2
+        "required": true
       }
     }, {
       "name": "source",

@@ -26,22 +26,26 @@
     }, {
       "name": "sex",
       "constraints": {
-        "required": true
+        "required": true,
+        "pattern": "(male|female|unknown)"
       }
     }, {
       "name": "rustication",
       "constraints": {
-        "required": false
+        "required": true,
+        "pattern": "(yes|no|unknown|NULL)"
       }
     }, {
       "name": "rustication_start",
       "constraints": {
-        "required": false
+        "required": false,
+        "min-length": 4
       }
     }, {
       "name": "rustication_end",
       "constraints": {
-        "required": false
+        "required": false,
+        "min-length": 4
       }
     }, {
       "name": "place_of_rust",

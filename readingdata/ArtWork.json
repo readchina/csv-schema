@@ -54,7 +54,8 @@
     {
       "name": "neibu",
       "constraints": {
-        "required": false
+        "required": false,
+				"pattern": "(yes|no)"
       }
     },
     {

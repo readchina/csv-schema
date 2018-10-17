@@ -23,7 +23,7 @@
     {
       "name": "genre_type",
       "constraints": {
-        "required": false
+        "required": true
       }
     },
     {
