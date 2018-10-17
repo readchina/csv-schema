@@ -1,14 +1,12 @@
 {
-  // quotation_id,quotation,source_id,page number,
-	"fields": [
-		{
-			"name": "quotation_id",
-			"constraints": {
-				"required": true,
+  "fields": [{
+      "name": "quotation_id",
+      "constraints": {
+        "required": true,
         "unique": true,
-				"pattern": "Q[0-9]{4}"
-			}
-		},
+        "pattern": "Q[0-9]{4}"
+      }
+    },
     {
       "name": "quotation",
       "constraints": {
@@ -41,31 +39,32 @@
     },
     {
       "name": "created",
-			"constraints": {
-				"required": true,
-				"type": "http://www.w3.org/2001/XMLSchema#date"
-			}
+      "constraints": {
+        "required": true,
+        "type": "http://www.w3.org/2001/XMLSchema#date"
+      }
     },
     {
       "name": "created_by",
-			"constraints": {
-				"required": true,
-				"pattern": "[A-Z]{2}"
-			}
+      "constraints": {
+        "required": true,
+        "pattern": "[A-Z]{2}"
+      }
     },
     {
       "name": "last_modified",
-			"constraints": {
-				"required": true,
-				"type": "http://www.w3.org/2001/XMLSchema#date"
-			}
+      "constraints": {
+        "required": true,
+        "type": "http://www.w3.org/2001/XMLSchema#date"
+      }
     },
     {
       "name": "last_modified_by",
-			"constraints": {
-				"required": true,
-				"pattern": "[A-Z]{2}"
-			}
+      "constraints": {
+        "required": true,
+        "pattern": "[A-Z]{2}"
+      }
     }
-	]
+  ],
+  "primaryKey": "quotation_id"
 }

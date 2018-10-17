@@ -1,16 +1,36 @@
 {
   "fields": [{
-      "name": "soc_pos_id",
+      "name": "place_ID",
       "constraints": {
         "required": true,
         "unique": true,
-        "pattern": "S[0-9]{2}"
+        "pattern": "PL[0-9]{4}"
       }
     },
     {
-      "name": "soc_pos_name",
+      "name": "place_name",
       "constraints": {
         "required": true
+      }
+    },
+    {
+      "name": "lat",
+      "constraints": {
+        "required": true,
+        "type": "http://www.w3.org/2001/XMLSchema#double"
+      }
+    },
+    {
+      "name": "long",
+      "constraints": {
+        "required": false,
+        "type": "http://www.w3.org/2001/XMLSchema#double"
+      }
+    },
+    {
+      "name": "note",
+      "constraints": {
+        "required": false
       }
     },
     {
@@ -42,5 +62,5 @@
       }
     }
   ],
-  "primaryKey": "soc_pos_id"
+  "primaryKey": "place_ID"
 }

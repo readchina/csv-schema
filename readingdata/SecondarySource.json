@@ -1,13 +1,12 @@
 {
-	"fields": [
-		{
-			"name": "sec_source_id",
-			"constraints": {
-				"required": true,
+  "fields": [{
+      "name": "sec_source_id",
+      "constraints": {
+        "required": true,
         "unique": false,
-				"pattern": "SS[0-9]{5}"
-			}
-		},
+        "pattern": "SS[0-9]{5}"
+      }
+    },
     {
       "name": "title",
       "constraints": {
@@ -36,64 +35,64 @@
     },
     {
       "name": "genre_id",
-			"constraints": {
-				"required": false,
-				"pattern": "G[0-9]{2}"
-			}
+      "constraints": {
+        "required": false,
+        "pattern": "G[0-9]{2}"
+      }
     },
     {
       "name": "publication_place",
-			"constraints": {
-				"required": false
-			}
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "publication_date",
-			"constraints": {
-				"required": false
-			}
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "publishing_house",
-			"constraints": {
-				"required": false
-			}
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "first_chin_edition",
-			"constraints": {
-				"required": false
-			}
-    },{
+      "constraints": {
+        "required": false
+      }
+    }, {
       "name": "neibu",
-			"constraints": {
-				"required": false
-			}
-    },{
+      "constraints": {
+        "required": false
+      }
+    }, {
       "name": "source_id",
-			"constraints": {
-				"required": false
-			}
-    },{
+      "constraints": {
+        "required": false
+      }
+    }, {
       "name": "serial_part",
-			"constraints": {
-				"required": false
-			}
-    },{
+      "constraints": {
+        "required": false
+      }
+    }, {
       "name": "pages",
-			"constraints": {
-				"required": false
-			}
-    },{
+      "constraints": {
+        "required": false
+      }
+    }, {
       "name": "commentary",
-			"constraints": {
-				"required": false
-			}
-    },{
+      "constraints": {
+        "required": false
+      }
+    }, {
       "name": "note",
-			"constraints": {
-				"required": false
-			}
+      "constraints": {
+        "required": false
+      }
     },
     {
       "name": "created",
@@ -123,5 +122,6 @@
         "pattern": "[A-Z]{2}"
       }
     }
-	]
+  ],
+  "primaryKey": ["sec_source_id", "title"]
 }

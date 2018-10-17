@@ -84,5 +84,6 @@
         "pattern": "[A-Z]{2}"
       }
     }
-  ]
+  ],
+  "primaryKey": "soc_rel_id"
 }

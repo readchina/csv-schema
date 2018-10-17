@@ -1,20 +1,18 @@
 {
-  // person_id,art_form_id,first_performance_date,first_performance_place,neibu,commentary
-	"fields": [
-		{
-			"name": "artwork_id",
-			"constraints": {
-				"required": true,
+  "fields": [{
+      "name": "artwork_id",
+      "constraints": {
+        "required": true,
         "unique": false,
-				"pattern": "AW[0-9]{5}"
-			}
-		},
+        "pattern": "AW[0-9]{5}"
+      }
+    },
     {
       "name": "title",
       "constraints": {
         "required": true
       }
-    },{
+    }, {
       "name": "subtitle",
       "constraints": {
         "required": false
@@ -73,31 +71,32 @@
     },
     {
       "name": "created",
-			"constraints": {
-				"required": true,
-				"type": "http://www.w3.org/2001/XMLSchema#date"
-			}
+      "constraints": {
+        "required": true,
+        "type": "http://www.w3.org/2001/XMLSchema#date"
+      }
     },
     {
       "name": "created_by",
-			"constraints": {
-				"required": true,
-				"pattern": "[A-Z]{2}"
-			}
+      "constraints": {
+        "required": true,
+        "pattern": "[A-Z]{2}"
+      }
     },
     {
       "name": "last_modified",
-			"constraints": {
-				"required": true,
-				"type": "http://www.w3.org/2001/XMLSchema#date"
-			}
+      "constraints": {
+        "required": true,
+        "type": "http://www.w3.org/2001/XMLSchema#date"
+      }
     },
     {
       "name": "last_modified_by",
-			"constraints": {
-				"required": true,
-				"pattern": "[A-Z]{2}"
-			}
+      "constraints": {
+        "required": true,
+        "pattern": "[A-Z]{2}"
+      }
     }
-	]
+  ],
+  "primaryKey": ["artwork_id", "title"]
 }

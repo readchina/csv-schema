@@ -1,14 +1,12 @@
 {
-  // substantial_discussion,source_id,page_number,source_status,commentary
-	"fields": [
-		{
-			"name": "act_ID",
-			"constraints": {
-				"required": true,
-        "unique":true,
-				"pattern": "A[0-9]{5}"
-			}
-		},
+  "fields": [{
+      "name": "act_ID",
+      "constraints": {
+        "required": true,
+        "unique": true,
+        "pattern": "A[0-9]{5}"
+      }
+    },
     {
       "name": "agent",
       "constraints": {
@@ -48,27 +46,27 @@
         "required": false,
         "min-length": 4
       }
-    },{
+    }, {
       "name": "substantial_discussion",
       "constraints": {
         "required": false
       }
-    },{
+    }, {
       "name": "source_id",
       "constraints": {
         "required": false
       }
-    },{
+    }, {
       "name": "page_number",
       "constraints": {
         "required": false
       }
-    },{
+    }, {
       "name": "source_status",
       "constraints": {
         "required": false
       }
-    },{
+    }, {
       "name": "commentary",
       "constraints": {
         "required": false
@@ -82,31 +80,32 @@
     },
     {
       "name": "created",
-			"constraints": {
-				"required": true,
-				"type": "http://www.w3.org/2001/XMLSchema#date"
-			}
+      "constraints": {
+        "required": true,
+        "type": "http://www.w3.org/2001/XMLSchema#date"
+      }
     },
     {
       "name": "created_by",
-			"constraints": {
-				"required": true,
-				"pattern": "[A-Z]{2}"
-			}
+      "constraints": {
+        "required": true,
+        "pattern": "[A-Z]{2}"
+      }
     },
     {
       "name": "last_modified",
-			"constraints": {
-				"required": true,
-				"type": "http://www.w3.org/2001/XMLSchema#date"
-			}
+      "constraints": {
+        "required": true,
+        "type": "http://www.w3.org/2001/XMLSchema#date"
+      }
     },
     {
       "name": "last_modified_by",
-			"constraints": {
-				"required": true,
-				"pattern": "[A-Z]{2}"
-			}
+      "constraints": {
+        "required": true,
+        "pattern": "[A-Z]{2}"
+      }
     }
-	]
+  ],
+  "primaryKey": "act_ID"
 }
