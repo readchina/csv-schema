@@ -67,5 +67,6 @@
       }
     }
   ],
-  "primaryKey": "quotation_id"
+  "primaryKey": "quotation_id",
+  "missingValues": ["","NULL"]
 }

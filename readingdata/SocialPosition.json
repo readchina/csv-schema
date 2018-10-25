@@ -42,5 +42,6 @@
       }
     }
   ],
-  "primaryKey": "soc_pos_id"
+  "primaryKey": "soc_pos_id",
+  "missingValues": ["","NULL"]
 }

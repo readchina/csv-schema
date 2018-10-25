@@ -62,5 +62,6 @@
       }
     }
   ],
-  "primaryKey": "genre_id"
+  "primaryKey": "genre_id",
+  "missingValues": ["","NULL"]
 }

@@ -65,7 +65,7 @@
       "name": "source_status",
       "constraints": {
         "required": false,
-				"pattern": "[1-3]"
+				"pattern": "(\W?|[1-3])"
       }
     }, {
       "name": "commentary",
@@ -108,5 +108,6 @@
       }
     }
   ],
-  "primaryKey": "act_ID"
+  "primaryKey": "act_ID",
+  "missingValues": ["","NULL"]
 }

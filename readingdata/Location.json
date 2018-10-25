@@ -49,5 +49,6 @@
       }
     }
   ],
-  "primaryKey": "loc_id"
+  "primaryKey": "loc_id",
+  "missingValues": ["","NULL"]
 }

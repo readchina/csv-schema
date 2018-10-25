@@ -25,7 +25,7 @@
       "name": "relation",
       "constraints": {
         "required": true,
-        "pattern": "S(3|4).*"
+        "pattern": "S(3|4)\.[0-9]"
       }
     },
     {
@@ -43,7 +43,8 @@
     }, {
       "name": "source",
       "constraints": {
-        "required": false
+        "required": true,
+        "pattern": "(^http|[PS]S[0-9]{5})"
       }
     }, {
       "name": "page",
@@ -85,5 +86,6 @@
       }
     }
   ],
-  "primaryKey": "soc_rel_id"
+  "primaryKey": "soc_rel_id",
+  "missingValues": ["","NULL"]
 }

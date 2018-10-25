@@ -23,7 +23,7 @@
     {
       "name": "long",
       "constraints": {
-        "required": false,
+        "required": true,
         "type": "http://www.w3.org/2001/XMLSchema#double"
       }
     },
@@ -62,5 +62,6 @@
       }
     }
   ],
-  "primaryKey": "place_ID"
+  "primaryKey": "place_ID",
+  "missingValues": ["","NULL"]
 }

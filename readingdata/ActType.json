@@ -48,5 +48,6 @@
       }
     }
   ],
-  "primaryKey": "action_ID"
+  "primaryKey": "action_ID",
+  "missingValues": ["","NULL"]
 }
