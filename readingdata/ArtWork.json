@@ -55,7 +55,7 @@
       "name": "neibu",
       "constraints": {
         "required": false,
-				"pattern": "(^$|yes|no)"
+        "pattern": "(^$|yes|no)"
       }
     },
     {
@@ -100,5 +100,5 @@
     }
   ],
   "primaryKey": ["artwork_id", "title"],
-  "missingValues": ["","NULL"]
+  "missingValues": ["", "NULL"]
 }

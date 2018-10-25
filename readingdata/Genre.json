@@ -63,5 +63,5 @@
     }
   ],
   "primaryKey": "genre_id",
-  "missingValues": ["","NULL"]
+  "missingValues": ["", "NULL"]
 }

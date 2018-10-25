@@ -87,5 +87,5 @@
     }
   ],
   "primaryKey": "soc_rel_id",
-  "missingValues": ["","NULL"]
+  "missingValues": ["", "NULL"]
 }

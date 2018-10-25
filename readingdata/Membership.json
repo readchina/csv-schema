@@ -61,5 +61,5 @@
     }
   ],
   "primaryKey": ["inst_ID", "person_id"],
-  "missingValues": ["","NULL"]
+  "missingValues": ["", "NULL"]
 }

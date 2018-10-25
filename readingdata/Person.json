@@ -98,7 +98,7 @@
       "name": "source_id_1",
       "constraints": {
         "required": true,
-        "pattern": "(^http|[PS]S[0-9]{5})"
+        "pattern": "(^http|[PS]S[0-9]{5})|NULL"
       }
     }, {
       "name": "page_number_1",
@@ -156,5 +156,5 @@
     }
   ],
   "primaryKey": ["person_id", "family_name"],
-  "missingValues": ["","NULL"]
+  "missingValues": ["", "NULL"]
 }

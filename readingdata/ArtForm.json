@@ -57,5 +57,5 @@
     }
   ],
   "primaryKey": "art_form_id",
-  "missingValues": ["","NULL"]
+  "missingValues": ["", "NULL"]
 }

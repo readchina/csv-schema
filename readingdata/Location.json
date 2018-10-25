@@ -50,5 +50,5 @@
     }
   ],
   "primaryKey": "loc_id",
-  "missingValues": ["","NULL"]
+  "missingValues": ["", "NULL"]
 }

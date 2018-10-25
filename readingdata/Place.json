@@ -63,5 +63,5 @@
     }
   ],
   "primaryKey": "place_ID",
-  "missingValues": ["","NULL"]
+  "missingValues": ["", "NULL"]
 }
