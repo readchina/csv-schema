@@ -61,12 +61,14 @@
     {
       "name": "first_chin_edition",
       "constraints": {
-        "required": false
+        "required": false,
+        "pattern": "(^$|NULL|unknown|[0-9]{4})"
       }
     }, {
       "name": "neibu",
       "constraints": {
-        "required": false
+        "required": false,
+        "pattern": "(^$|yes|no|NULL)"
       }
     }, {
       "name": "source_id",
@@ -123,5 +125,6 @@
       }
     }
   ],
-  "primaryKey": ["place_ID", "titles"]
+  "primaryKey": ["place_ID", "titles"],
+  "missingValues": ["", "NULL"]
 }

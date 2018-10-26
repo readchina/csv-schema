@@ -23,7 +23,7 @@
     {
       "name": "source_link",
       "constraints": {
-        "required": false,
+        "required": true,
         "type": "http://www.w3.org/2001/XMLSchema#anyURI"
       }
     },
@@ -56,5 +56,6 @@
       }
     }
   ],
-  "primaryKey": "art_form_id"
+  "primaryKey": "art_form_id",
+  "missingValues": ["", "NULL"]
 }

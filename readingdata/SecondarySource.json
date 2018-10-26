@@ -43,13 +43,15 @@
     {
       "name": "publication_place",
       "constraints": {
-        "required": false
+        "required": false,
+        "pattern": "(^http|PL[0-9]{4}|^$)"
       }
     },
     {
       "name": "publication_date",
       "constraints": {
-        "required": false
+        "required": false,
+        "pattern": "(^$|[0-9]{4})"
       }
     },
     {
@@ -61,12 +63,12 @@
     {
       "name": "first_chin_edition",
       "constraints": {
-        "required": false
+        "pattern": "(^$|NULL|unknown|[0-9]{4})"
       }
     }, {
       "name": "neibu",
       "constraints": {
-        "required": false
+        "pattern": "(^$|yes|no|NULL)"
       }
     }, {
       "name": "source_id",
@@ -123,5 +125,6 @@
       }
     }
   ],
-  "primaryKey": ["sec_source_id", "title"]
+  "primaryKey": ["sec_source_id", "title"],
+  "missingValues": ["", "NULL"]
 }

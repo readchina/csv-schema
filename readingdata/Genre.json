@@ -23,7 +23,7 @@
     {
       "name": "genre_type",
       "constraints": {
-        "required": false
+        "required": true
       }
     },
     {
@@ -62,5 +62,6 @@
       }
     }
   ],
-  "primaryKey": "genre_id"
+  "primaryKey": "genre_id",
+  "missingValues": ["", "NULL"]
 }

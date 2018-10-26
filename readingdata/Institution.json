@@ -22,7 +22,7 @@
       "name": "place_id",
       "constraints": {
         "required": false,
-        "patterh": "PL[0-9]{4}"
+        "pattern": "(^$|PL[0-9]{4})"
       }
     }, {
       "name": "start",
@@ -103,5 +103,6 @@
       }
     }
   ],
-  "primaryKey": ["inst_ID", "inst_name"]
+  "primaryKey": ["inst_ID", "inst_name"],
+  "missingValues": ["", "NULL"]
 }
