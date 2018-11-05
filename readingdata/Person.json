@@ -92,7 +92,7 @@
       "name": "neibu_access",
       "constraints": {
         "required": false,
-        "pattern": "(^$|NULL|yes|no|indirect|unknown)"
+        "pattern": "(^$|NULL|yes|no|unknown)"
       }
     }, {
       "name": "source_id_1",
