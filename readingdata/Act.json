@@ -68,6 +68,12 @@
         "pattern": "(\W?|[1-3])"
       }
     }, {
+      "name": "act_status",
+      "constraints": {
+        "required": false,
+        "pattern":"(\W?|F)"
+      }
+    }, {
       "name": "commentary",
       "constraints": {
         "required": false
