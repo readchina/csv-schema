@@ -122,6 +122,12 @@
         "required": false
       }
     }, {
+      "name": "character_status",
+      "constraints": {
+        "required": false,
+        "pattern": "F?"
+      }
+    }, {
       "name": "commentary",
       "constraints": {
         "required": false
