@@ -122,7 +122,7 @@
         "required": false
       }
     }, {
-      "name": "character_status",
+      "name": "fictionality",
       "constraints": {
         "required": false,
         "pattern": "F?"

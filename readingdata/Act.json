@@ -68,10 +68,10 @@
         "pattern": "(\W?|[1-3])"
       }
     }, {
-      "name": "act_status",
+      "name": "fictionality",
       "constraints": {
         "required": false,
-        "pattern":"(\W?|F)"
+        "pattern":"F?"
       }
     }, {
       "name": "commentary",
