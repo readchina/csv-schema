@@ -125,7 +125,7 @@
       "name": "character_status",
       "constraints": {
         "required": false,
-        "pattern": "(\W?|F)"
+        "pattern": "F?"
       }
     }, {
       "name": "commentary",
