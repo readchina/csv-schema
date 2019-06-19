@@ -86,7 +86,7 @@
         "required": false
       }
     }, {
-      "name": "literary_status",
+      "name": "fictionality",
       "constraints": {
         "required": false,
         "pattern": "F?"
