@@ -92,6 +92,12 @@
         "pattern": "F?"
       }
     }, {
+        "name": "main_narrator",
+        "constraints": {
+          "required": false,
+          "pattern": "(P[0-9]{4}|SS[0-9]{5})"
+      }
+    }, {
       "name": "commentary",
       "constraints": {
         "required": false

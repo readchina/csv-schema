@@ -47,6 +47,12 @@
         "min-length": 4
       }
     }, {
+      "name": "narrative_time",
+      "constraints": {
+        "required": false
+        "min-length": 4
+      }
+    }, {
       "name": "substantial_discussion",
       "constraints": {
         "required": false
