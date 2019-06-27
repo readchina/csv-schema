@@ -49,7 +49,7 @@
     }, {
       "name": "narrative_time",
       "constraints": {
-        "required": false
+        "required": false,
         "min-length": 4
       }
     }, {
