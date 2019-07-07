@@ -20,6 +20,12 @@
       }
     },
     {
+      "name": "source_link",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
       "name": "created",
       "constraints": {
         "required": true,
