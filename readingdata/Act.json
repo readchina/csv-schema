@@ -50,7 +50,8 @@
       "name": "narrative_time",
       "constraints": {
         "required": false,
-        "min-length": 4
+        "min-length": 2,
+        "pattern": "(^$|NULL|0[0-3])"
       }
     }, {
       "name": "substantial_discussion",
