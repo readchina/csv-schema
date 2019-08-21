@@ -27,14 +27,14 @@
       }
     },
     {
-      "name": "person_id",
+      "name": "author",
       "constraints": {
         "required": true,
         "pattern": "(P|I)[0-9]{4}"
       }
     },
     {
-      "name": "genre_id",
+      "name": "genre",
       "constraints": {
         "required": false,
         "pattern": "G[0-9]{2}"
@@ -71,17 +71,17 @@
         "pattern": "(^$|yes|no|NULL)"
       }
     }, {
-      "name": "source_id",
+      "name": "source",
       "constraints": {
         "required": false
       }
     }, {
-      "name": "serial_part",
+      "name": "serial",
       "constraints": {
         "required": false
       }
     }, {
-      "name": "pages",
+      "name": "page",
       "constraints": {
         "required": false
       }

@@ -1,27 +1,27 @@
 {
   "fields": [{
-      "name": "inst_ID",
+      "name": "institution",
       "constraints": {
         "required": true,
         "pattern": "I[0-9]{4}"
       }
     },
     {
-      "name": "person_id",
+      "name": "member",
       "constraints": {
         "required": true,
         "pattern": "P[0-9]{4}"
       }
     },
     {
-      "name": "source_id",
+      "name": "source",
       "constraints": {
         "required": true,
         "pattern": "[PS]S[0-9]{5}"
       }
     },
     {
-      "name": "page_number",
+      "name": "page",
       "constraints": {
         "required": false
       }

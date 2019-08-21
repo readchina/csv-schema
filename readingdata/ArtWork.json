@@ -26,13 +26,13 @@
       }
     },
     {
-      "name": "person_id",
+      "name": "creator",
       "constraints": {
         "required": true
       }
     },
     {
-      "name": "art_form_id",
+      "name": "art_form",
       "constraints": {
         "required": true,
         "pattern": "AF[0-9]{2}"

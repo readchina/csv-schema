@@ -1,6 +1,6 @@
 {
   "fields": [{
-      "name": "action_ID",
+      "name": "action_id",
       "constraints": {
         "required": true,
         "unique": true,
@@ -48,6 +48,6 @@
       }
     }
   ],
-  "primaryKey": "action_ID",
+  "primaryKey": "action_id",
   "missingValues": ["", "NULL"]
 }

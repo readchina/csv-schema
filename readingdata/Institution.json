@@ -1,6 +1,6 @@
 {
   "fields": [{
-      "name": "inst_ID",
+      "name": "inst_id",
       "constraints": {
         "required": true,
         "pattern": "I[0-9]{4}"
@@ -16,10 +16,10 @@
       "name": "inst_name_lang",
       "constraints": {
         "required": true,
-        "min-length": 2
+        "pattern": "[a-z]{2}"
       }
     }, {
-      "name": "place_id",
+      "name": "place",
       "constraints": {
         "required": false,
         "pattern": "(^$|PL[0-9]{4})"
@@ -64,12 +64,12 @@
         "required": false
       }
     }, {
-      "name": "source_id",
+      "name": "source",
       "constraints": {
         "required": false
       }
     }, {
-      "name": "page_number",
+      "name": "page",
       "constraints": {
         "required": false
       }
