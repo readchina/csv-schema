@@ -21,7 +21,7 @@
       "name": "name_lang",
       "constraints": {
         "required": true,
-        "pattern": "(^$|NULL|[a-z]{2})"
+        "pattern": "[a-z]{2}"
       }
     }, {
       "name": "sex",
@@ -51,7 +51,7 @@
       "name": "place_of_rust",
       "constraints": {
         "required": false,
-        "pattern": "(^$|NULL|PL[0-9]{4}|unknown)"
+        "pattern": "(^$|NULL|PL[0-9]{4})"
       }
     }, {
       "name": "birthyear",
@@ -80,7 +80,7 @@
       "name": "place_of_birth",
       "constraints": {
         "required": false,
-        "pattern": "(^$|NULL|PL[0-9]{4}|unknown)"
+        "pattern": "(^$|NULL|PL[0-9]{4})"
       }
     }, {
       "name": "social_position",
@@ -95,23 +95,23 @@
         "pattern": "(^$|NULL|yes|no|unknown)"
       }
     }, {
-      "name": "source_id_1",
+      "name": "source_1",
       "constraints": {
         "required": true,
         "pattern": "(^http|[PS]S[0-9]{5})|NULL"
       }
     }, {
-      "name": "page_number_1",
+      "name": "page_1",
       "constraints": {
         "required": false
       }
     }, {
-      "name": "source_id_2",
+      "name": "source_2",
       "constraints": {
         "required": false
       }
     }, {
-      "name": "page_number_2",
+      "name": "page_2",
       "constraints": {
         "required": false
       }

@@ -1,6 +1,6 @@
 {
   "fields": [{
-      "name": "place_ID",
+      "name": "place_id",
       "constraints": {
         "required": true,
         "unique": true,
@@ -62,6 +62,6 @@
       }
     }
   ],
-  "primaryKey": "place_ID",
+  "primaryKey": "place_id",
   "missingValues": ["", "NULL"]
 }

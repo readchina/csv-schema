@@ -1,6 +1,6 @@
 {
   "fields": [{
-      "name": "act_ID",
+      "name": "act_id",
       "constraints": {
         "required": true,
         "unique": true,
@@ -52,12 +52,12 @@
         "required": false
       }
     }, {
-      "name": "source_id",
+      "name": "source",
       "constraints": {
         "required": true
       }
     }, {
-      "name": "page_number",
+      "name": "page",
       "constraints": {
         "required": false
       }
@@ -108,6 +108,6 @@
       }
     }
   ],
-  "primaryKey": "act_ID",
+  "primaryKey": "act_id",
   "missingValues": ["", "NULL"]
 }

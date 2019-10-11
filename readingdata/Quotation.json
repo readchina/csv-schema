@@ -14,14 +14,14 @@
       }
     },
     {
-      "name": "source_id",
+      "name": "source",
       "constraints": {
         "required": true,
         "pattern": "(P|S)S[0-9]{5}"
       }
     },
     {
-      "name": "page number",
+      "name": "page",
       "constraints": {
         "required": false
       }
