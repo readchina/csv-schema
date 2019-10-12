@@ -20,7 +20,7 @@
       }
     },
     {
-      "name": "source_link",
+      "name": "source",
       "constraints": {
         "required": false
       }
