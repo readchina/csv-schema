@@ -51,7 +51,7 @@
       "constraints": {
         "required": false,
         "min-length": 2,
-        "pattern": "(^$|NULL|0[0-3])"
+        "pattern": "(^$|NULL|[0-3])"
       }
     }, {
       "name": "substantial_discussion",
