@@ -17,7 +17,7 @@
       "name": "source",
       "constraints": {
         "required": true,
-        "pattern": "(P|S)S[0-9]{5}"
+        "pattern": "(P|S)S[0-9]{5}|AW[0-9]{5}"
       }
     },
     {
