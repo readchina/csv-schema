@@ -80,6 +80,13 @@
       }
     },
     {
+      "name": "id_lang",
+      "constraints": {
+        "required": true,
+        "pattern": "en"
+      }
+    },
+    {
       "name": "created",
       "constraints": {
         "required": true,
