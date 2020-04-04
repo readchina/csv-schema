@@ -4,7 +4,7 @@
       "constraints": {
         "required": true,
         "unique": true,
-        "pattern": "W[0-9]{5}"
+        "pattern": "W[0-9]{4}"
       }
     },
     {
@@ -23,7 +23,7 @@
     {
       "name": "type",
       "constraints": {
-        "required": false,
+        "required": false
       }
     },
     {
@@ -38,7 +38,13 @@
         "required": true,
         "min-length": 2
       }
-    }, {
+    },{
+      "name": "commentary",
+      "constraints": {
+        "required": false
+      }
+    },
+     {
       "name": "note",
       "constraints": {
         "required": false
@@ -73,6 +79,6 @@
       }
     }
   ],
-  "primaryKey": ["work_id"],
+  "primaryKey": "work_id",
   "missingValues": ["", "NULL"]
 }
