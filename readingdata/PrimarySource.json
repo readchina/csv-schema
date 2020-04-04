@@ -4,7 +4,7 @@
       "constraints": {
         "required": true,
         "unique": false,
-        "pattern": "PS[0-9]{5}"
+        "pattern": "W[0-9]{5}"
       }
     },
     {
@@ -24,13 +24,6 @@
       "constraints": {
         "required": true,
         "min-length": 2
-      }
-    },
-    {
-      "name": "author",
-      "constraints": {
-        "required": true,
-        "pattern": "(P|I)[0-9]{4}"
       }
     },
     {
@@ -82,11 +75,6 @@
       }
     }, {
       "name": "page",
-      "constraints": {
-        "required": false
-      }
-    }, {
-      "name": "commentary",
       "constraints": {
         "required": false
       }

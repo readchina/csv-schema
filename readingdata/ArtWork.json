@@ -4,7 +4,7 @@
       "constraints": {
         "required": true,
         "unique": false,
-        "pattern": "AW[0-9]{5}"
+        "pattern": "W[0-9]{5}"
       }
     },
     {
@@ -23,12 +23,6 @@
       "constraints": {
         "required": true,
         "min-length": 2
-      }
-    },
-    {
-      "name": "creator",
-      "constraints": {
-        "required": true
       }
     },
     {
@@ -56,12 +50,6 @@
       "constraints": {
         "required": false,
         "pattern": "(^$|yes|no)"
-      }
-    },
-    {
-      "name": "commentary",
-      "constraints": {
-        "required": false
       }
     },
     {

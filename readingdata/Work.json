@@ -1,38 +1,44 @@
 {
   "fields": [{
-      "name": "quotation_id",
+      "name": "work_id",
       "constraints": {
         "required": true,
         "unique": true,
-        "pattern": "Q[0-9]{4}"
-      }
-    },
-    {
-      "name": "quotation",
-      "constraints": {
-        "required": true
-      }
-    },
-    {
-      "name": "source",
-      "constraints": {
-        "required": true,
         "pattern": "W[0-9]{5}"
       }
     },
     {
-      "name": "page",
+      "name": "old_id",
       "constraints": {
         "required": false
       }
     },
     {
-      "name": "commentary",
+      "name": "creator",
+      "constraints": {
+        "required": true,
+        "pattern": "(P|I)[0-9]{4}"
+      }
+    },
+    {
+      "name": "type",
+      "constraints": {
+        "required": false,
+      }
+    },
+    {
+      "name": "type_num",
       "constraints": {
         "required": false
       }
     },
     {
+      "name": "language",
+      "constraints": {
+        "required": true,
+        "min-length": 2
+      }
+    }, {
       "name": "note",
       "constraints": {
         "required": false
@@ -67,6 +73,6 @@
       }
     }
   ],
-  "primaryKey": "quotation_id",
+  "primaryKey": ["work_id"],
   "missingValues": ["", "NULL"]
 }
